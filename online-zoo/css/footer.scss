@@ -1,0 +1,264 @@
+.footer {
+	flex: 0 1 auto;
+}
+.footer__image-logo {
+	flex: 0 0 145px;
+	@media (max-width: 578px) {
+		flex: 0 1 auto;
+		display: none;
+	}
+}
+.footer__petstory {
+	font-size: 19.0145px;
+	line-height: 120%;
+	text-align: center;
+	color: #ffffff;
+	//border: 1.18841px solid #ffffff;
+	display: none;
+	@media (max-width: 578px) {
+		display: flex;
+		flex: 0 1 auto;
+		margin-bottom: 50px;
+	}
+}
+.footer__image {
+	width: 82px;
+	height: 52px;
+}
+
+.footer {
+	padding: 41px 0 50px;
+	background: #111115;
+	color: white;
+
+	@media (max-width: 760px) {
+		padding: 0;
+	}
+}
+
+.footer__container {
+	display: flex;
+	flex-direction: column;
+	position: relative;
+	@media (max-width: 760px) {
+		padding: 12px 20px;
+	}
+	@media (max-width: 578px) {
+		justify-content: center;
+		align-items: center;
+		gap: 30px;
+		padding: 20px 10px;
+	}
+}
+.footer__logo {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 30px;
+	@media (max-width: 579px) {
+		margin-bottom: 0px;
+		order: 0;
+	}
+}
+
+.footer__image-logo {
+	flex: 0 1 368px;
+	@media (max-width: 578px) {
+		flex: 0 1 auto;
+	}
+}
+
+.footer__subscribe {
+	flex: 0 1 400px;
+	@media (max-width: 760px) {
+		display: none;
+	}
+	@media (max-width: 578px) {
+		flex: 0 1 auto;
+	}
+}
+.footer__empty {
+	@media (max-width: 578px) {
+		display: none;
+	}
+}
+
+.footer__text {
+	font-size: 24px;
+	line-height: 120%;
+	margin-bottom: 14px;
+	padding-left: 32px;
+}
+
+.footer__email {
+	display: flex;
+	justify-content: flex-end;
+	gap: 10px;
+}
+
+.footer__input {
+	width: 214px;
+	height: 42px;
+	background-color: #000000;
+	border: 1px solid orange;
+	padding-left: 10px;
+	color: white;
+}
+
+.footer__input::placeholder {
+	font-size: 16px;
+	line-height: 140%;
+	color: #bdbdbd;
+}
+
+.footer__submit:hover {
+	border: 1px solid #4b9200;
+	color: #4b9200;
+}
+
+.footer__submit {
+	font-size: 16px;
+	background: #f1f3f2;
+	border: 1px solid black;
+	border-radius: 5px;
+	line-height: 140%;
+	color: black;
+	padding: 10px 39px;
+}
+
+.footer__box-button {
+	padding-top: 30px;
+	padding-bottom: 46px;
+	display: flex;
+	@media (max-width: 578px) {
+		padding: 0px;
+	}
+}
+
+.footer__info {
+	display: flex;
+	justify-content: space-between;
+	@media (max-width: 578px) {
+		align-self: center;
+		flex-direction: column;
+		order: 2;
+	}
+}
+
+.footer__social {
+	flex: 0 1 368px;
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+	@media (max-width: 1500px) {
+		flex: 0 1 240px;
+	}
+	@media (max-width: 894px) {
+		flex: 0 1 150px;
+	}
+	@media (max-width: 760px) {
+		position: absolute;
+		top: 12px;
+		right: 20px;
+		gap: 20px;
+	}
+	@media (max-width: 578px) {
+		flex-direction: row;
+		flex: 0 1 auto;
+		align-self: center;
+		top: 70px;
+		right: 25%;
+	}
+}
+
+.footer__button {
+	align-self: flex-start;
+	border-radius: 0;
+	padding: 0;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-bottom: 50px;
+	@media (max-width: 760px) {
+		margin-bottom: 75px;
+	}
+	@media (max-width: 578px) {
+		align-self: center;
+		margin-bottom: 0px;
+		order: 1;
+	}
+}
+
+.footer__block {
+	display: flex;
+	gap: 10px;
+	align-items: center;
+}
+
+.social-item {
+	background: rgba(196, 196, 196, 0.5);
+	width: 26px;
+	height: 26px;
+	border-radius: 50%;
+	position: relative;
+}
+
+.social-item img {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.footer__menu {
+	align-self: flex-end;
+	display: flex;
+	@media (max-width: 578px) {
+		order: 1;
+	}
+}
+
+.menu__items {
+	display: flex;
+	gap: 58px;
+	@media (max-width: 1500px) {
+		gap: 48px;
+	}
+	@media (max-width: 894px) {
+		gap: 36px;
+	}
+}
+
+.footer__design {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-end;
+	justify-content: flex-end;
+	text-align: right;
+	flex: 0 1 370px;
+	font-weight: 100;
+	gap: 10px;
+	@media (max-width: 1500px) {
+		flex: 0 1 240px;
+	}
+	@media (max-width: 578px) {
+		flex: 0 1 auto;
+		order: 0;
+		margin-bottom: 30px;
+	}
+}
+
+.footer__block:hover {
+	color: #4b9200;
+}
+
+.footer__block:hover .social-item {
+	background: #4b9200;
+}
+
+.footer__block {
+	@media (max-width: 760px) {
+		> p {
+			display: none;
+		}
+	}
+}
